@@ -26,5 +26,5 @@
 	}
 	
 	//加载首页
-	include('../template/index.php');
+	include('./template/index.php');
 	
