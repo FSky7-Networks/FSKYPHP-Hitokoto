@@ -1,22 +1,17 @@
 <?php
 	/*
-		FSKYPHP-Note
+		FSKYPHP-Hitokoto
 		
-		模块 : 安装程序
-		时间 : 2018/11/30
-		环境 : LNMP PHP7.1
-		编写 : FlyingSky
-		检查 : FlyingSky
-		版本 : Release 3.0
+		说明 : 安装程序
+		版本 : 0.1-Dev
 		
-		Copyright 2018 FlyingSky .
 	*/
 
 	session_start();
 
 	//Check step
 	$do=isset($_GET['do'])?$_GET['do']:'0';
-	if(file_exists('install.lock')){
+	if(file_exists('../common/config.php')){
 		//Installed
 		$installed=true;
 		$do='0';
@@ -46,13 +41,16 @@
 		}
 	}
 
+	//Information
+	$install_title = '安装程序 | FSKYPHP-Hitokoto'；
+
 ?>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>安装程序 | FSKYPHP-Note</title>
+		<title><?=$install_title ?></title>
 		<link rel="stylesheet" href="https://github.cdn.fsky7.com/GoogleMDL/icon.css">
 		<link rel="stylesheet" href="https://github.cdn.fsky7.com/GoogleMDL/material.blue-light_blue.min.css">
 		<script src="https://github.cdn.fsky7.com/GoogleMDL/material.min.js"></script>
