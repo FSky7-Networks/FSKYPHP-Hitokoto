@@ -3,7 +3,7 @@
 		FSKYPHP-Hitokoto
 		
 		说明 : 入口文件
-		版本 : 0.9-Dev
+		版本 : 0.1-Dev
 		
 	*/
 	
