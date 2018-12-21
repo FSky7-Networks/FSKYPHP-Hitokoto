@@ -244,8 +244,7 @@
 						</div>
 					<?php
 							//Save File
-$config="
-<?php
+$config="<?php
 	/*
 		FSKYPHP-Hitokoto
 		
