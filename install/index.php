@@ -293,7 +293,7 @@ $config="<?php
 								</div>
 								<div class="mdl-card__actions mdl-card--border" align="center">
 									<a class="mdl-button mdl-button--colored"href="../">网站首页</a>
-									<a class="mdl-button mdl-button--colored"href="../admin/">后台管理</a>
+									<a class="mdl-button mdl-button--colored"href="../?admin=T">后台管理</a>
 								</div>
 							';
 						} else {
